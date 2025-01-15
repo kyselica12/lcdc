@@ -8,6 +8,11 @@ class StrVars(StrEnum):
     FOURIER_COEFS = 'fourier_coefs'
     WAVELET = "wavelet"
 
+class VariabilityInt(IntEnum):
+    APERIODIC = 0
+    PERIODIC = 1
+    NONVARIABLE = 2
+
 class Variability(StrEnum):
     APERIODIC = 'aperiodic'
     PERIODIC = 'periodic'
